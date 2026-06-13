@@ -96,7 +96,8 @@ pamphletImage.addEventListener(
     function (event)
 {
     startX = event.touches[0].clientX;
-}
+},
+    {passive: true}
 );
 
 pamphletImage.addEventListener(
@@ -105,7 +106,7 @@ pamphletImage.addEventListener(
 {
    let endX = event.changedTouches[0].clientX;
    let moveX = endX - startX;
-   if(math.abs(moveX) < -80){
+   if(Math.abs(moveX) < 80){
          return;
     }
     if (moveX < 0)
@@ -116,4 +117,6 @@ pamphletImage.addEventListener(
     {
         prevButton.click();
     }
-});
+},
+    {passive: true}
+);
