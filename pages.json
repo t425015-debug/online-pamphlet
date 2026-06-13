@@ -1,0 +1,19 @@
+[
+    {
+        "title": "表紙",
+        "image": "images/page01.png"
+    },
+    {
+        "title": "1ページ目",
+        "image": "images/page02.png"
+    },
+    {
+        "title": "2ページ目",
+        "image": "images/page03.png"
+    },
+    {
+        "title": "3ページ目",
+        "image": "images/page04.png"
+    }
+
+]
